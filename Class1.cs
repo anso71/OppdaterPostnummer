@@ -60,7 +60,7 @@ namespace OppdaterPostnummer
                         }
                         if (!zipcode)
                         {
-                            postsql.Append("insert into aagzipcodes(country_code, zip_code, place,municipal, user_id, last_update) values ('No','");
+                            postsql.Append("insert into aagzipcodes(country_code, zip_code, place,municipal, user_id, last_update) values ('NO','");
                             postsql.Append(words[0]);
                             postsql.Append("','");
                             postsql.Append(@words[1]);
